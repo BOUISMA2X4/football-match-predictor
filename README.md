@@ -1,4 +1,4 @@
-# FOOTBALL9AMERM3ARAK
+# football-match-predictor
 
 Prédiction probabiliste de matchs de football, intégrée dans une pipeline MLOps.
 
