@@ -1,0 +1,11 @@
+walk_forward:
+  min_train_seasons: 3     # saisons minimales d'entraînement avant le 1er test
+  max_train_seasons: null  # null = fenêtre extensible ; sinon fenêtre glissante
+metrics:
+  ece_bins: 10
+bootstrap:
+  n_boot: 2000
+  seed: 42
+market:
+  closing_prefixes: [PSC, AvgC]   # cotes de clôture, par ordre de préférence
+  opening_prefixes: [B365]        # cotes d'ouverture (approximation)
